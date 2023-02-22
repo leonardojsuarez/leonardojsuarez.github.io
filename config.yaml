@@ -1,4 +1,5 @@
-baseURL: "https://hugo-profile.netlify.app"
+baseURL: "https://leonardojsuarez.github.io"
+#baseURL: "http://localhost/leonardojsuarez.github.io/public/"
 languageCode: "en-us"
 title: "Hugo Profile"
 theme: hugo-profile
@@ -378,3 +379,5 @@ params:
     article: "Jan 2, 2006"
     articleList: "Jan 2, 2006"
     articleRecent: "Jan 2, 2006"
+    
+#  publishDir: "public"
