@@ -3,7 +3,7 @@ import { Avatar, Box, Container, Grid2, Typography } from '@mui/material'
 import { useSelector } from 'react-redux'
 
 export const Welcome = () => {
-  const {profile} = useSelector((state) => state.data)
+  const {profile} = useSelector((state:any) => state.data)
 
   return (
     <>
